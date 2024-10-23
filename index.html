@@ -10,7 +10,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link 
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
       
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/apresentacao.css">
@@ -84,6 +89,62 @@
 
     </section>
 
+    <section id="flashcard" >
+
+        <article class="cartao">
+
+            <div class="cartao__conteudo">
+                <h3>Missão</h3>
+                
+                <div class="cartao__conteudo__pergunta">
+                    <p>Saiba qual é a missão de nossa empresa!</p>
+                </div>
+                
+                <div class="cartao__conteudo__resposta">
+                    <p>Nossa missão é ... </p>
+                </div>
+            </div>
+
+            <div class="cartao__conteudo">
+                <h3>Visão</h3>
+                
+                <div class="cartao__conteudo__pergunta">
+                    <p><!DOCTYPE html>
+                        <html lang="pt-br">
+                        
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Página principal</title>
+                            <link rel="stylesheet" href="reset.css">
+                            <link rel="preconnect" href="https://fonts.googleapis.com">
+                            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                        …                <li class="opcoes__item"> CATEGORIAS </li>
+                                    </label>
+                        
+                                    <ul class="cabecalhSaiba qual é a Visão de nossa empresa!</p>
+                </div>
+                
+                <div class="cartao__conteudo__resposta">
+                    <p>Nossa Visão é ... </p>
+                </div>
+            </div>
+
+            <div class="cartao__conteudo">
+                <h3>Valores</h3>
+                
+                <div class="cartao__conteudo__pergunta">
+                    <p>Saiba quais são os valores de nossa empresa! </p>
+                </div>
+                
+                <div class="cartao__conteudo__resposta">
+                    <p>Nossos valores são ... </p>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
     <section class="carrossel">
         
         <h2 class="carrossel__titulo">Nossos Serviços</h2>
@@ -93,37 +154,127 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="./img/IMAGEM 1.webp" alt="CARA NO TETO 1"></div>
-                <div class="swiper-slide"><img src="./img/IMAGEM 2.jpg" alt="CARA NO TETO 2"></div>
-                <div class="swiper-slide"><img src="./img/IMAGEM 3.png" alt="EXEMPLO FORRO E SANCA"></div>
-                <div class="swiper-slide"><img src="./img/IMAGEM 4.webp" alt="SANCA COLOCADA"></div>
-                <div class="swiper-slide"><img src="./img/IMAGEM 5.jpg" alt="SANCA COM LED"></div>
-                <div class="swiper-slide"><img src="./img/IMAGEM 6.jpg" alt="SANCA COM LED 2"></div>
-                <div class="swiper-slide"><img src="./img/IMAGEM 7.jpeg" alt="DRYWWAL"></div>
+                <div class="swiper-slide"><img src="./img/abstract-95721_1280.jpg" alt="função seno"></div>
+                <div class="swiper-slide"><img src="./img/background-5270959_1920.jpg" alt="mesa de estudo"></div>
+                <div class="swiper-slide"><img src="./img/banner-1044110_1920.jpg" alt="formula de bhaskara"></div>
+                <div class="swiper-slide"><img src="./img/board-4727472_1280.jpg" alt="quadro com fórmulas"></div>
+                <div class="swiper-slide"><img src="./img/chart-2785864_1280.jpg" alt="relatorio"></div>
+                <div class="swiper-slide"><img src="./img/ecommerce-3562191_1920.jpg" alt="dispositivos móveis"></div>
+                <div class="swiper-slide"><img src="./img/halloween-background-5615520_1920.jpg" alt="halloween"></div>
+                
+                
+                
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
                 
             </div>
-
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-  
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-  
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
+           
         </div>
-    </section>
+        
+        <!-- Promoção - Melhor Produto -->
+        <div class="card">
 
+            <div class="card__descricao">
+
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por... </h3>
+                    <h2 class="descricao__titulo-produto">Aulas Particulares</h2>
+                    <p class="descricao__texto"> Aulas particulares de Matemática, Pensamento Computacional, Robótica, Programação em HTML, CSS e Javascript</p>
+                </div>
+                
+                <img src="./img/Online learning-amico.svg" alt="Foto da promoção" class="descricao__imagem">
+
+            </div>
+
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item">
+                        <img src="./img/favoritos.svg" alt="Favoritar produto">
+                    </li>
+                    <li class="botoes__item"> 
+                        <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
+                        #flashcard {
+                            background-color: var(--cor-fundo);
+                            display: flex;
+                        }
+                        
+                        .cartao {
+                            margin: 1rem 1rem;
+                            background-color: var(--cor-botao);
+                            height: 20rem;
+                            flex-grow: 1;
+                            flex-basis: calc(33% -6rem);
+                        }
+                        
+                        .cartao__conteudo{
+                            text-align: center;
+                            height: 100%;
+                        }
+                        
+                        .cartao__conteudo h3 {
+                            background-color: var(--cor-principal);
+                            text-align: left;
+                            padding: 0.5rem;
+                            position: absolute;
+                            margin: 0.6rem;
+                            border: 1px solid var(--cor-rosa);
+                            border-radius: 0.6rem;
+                            font-size: 1vw;
+                            color: var(--cor-branco);
+                        }
+                        
+                        .cartao__conteudo p {
+                            color: var(--cor-preto);
+                            padding: 2rem;
+                        }
+                        
+                        .cartao__conteudo__pergunta p {
+                            color: var(--cor-preto);
+                            font-weight: 500;
+                        }
+                        
+                        .cartao__conteudo__resposta p {
+                            color: var(--cor-fundo);
+                            font-weight: 700;
+                        }
+                        
+                        .cartao:hover .cartao__conteudo {
+                            transform: rotateY(180deg);
+                        }
+                        
+                        .cartao__conteudo__pergunta,
+                        .cartão__conteudo__resposta {
+                            backface-visibility: hidden;
+                            position: absolute;
+                            height: 100%;
+                            width: 100%;
+                        }
+                        
+                        .cartao__conteudo__resposta {
+                            transform: rotateY(180deg);
+                        }        </li>
+                </ul>
+
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+
+            </div>
+        </div>
+
+    
+    
+    
+    
+    </section>
 
     <section class="estudante">
         <h2 class="estudante-titulo">Quem sou</h2>
         <div class="estudante-div">
-            <img src="img/gerson.jpg" alt="foto do gabriel" class="estudante-imagem">
-            <h3 class="estudante-nome"> Gabriel Marlon Caetano Rodrigues </h3>
-            <a href="https://github.com/Gabriel/segundo-repositorio2E.git"> <img src="img/github.svg" alt="icone do github" class="estudante-icone"> </a>
-            <a href="https://instagram.com/gabrielmarlon_vrxrs"> <img src="img/instagram.svg" alt="icone do instagram" class="estudante-icone"> </a>
-            <a href="https://wa.me/5541999589774?text=Sou+o+.+Gabriel.+Como+posso+ajudar%3F"> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
+            <img src="img/gerson.jpg" alt="foto do gerson" class="estudante-imagem">
+            <h3 class="estudante-nome"> Gerson Cesar Grobe de Miranda </h3>
+            <a href="https://github.com/cesargrobe/segundo-repositorio2E.git"> <img src="img/github.svg" alt="icone do github" class="estudante-icone"> </a>
+            <a href="https://instagram.com/cesargrobe"> <img src="img/instagram.svg" alt="icone do instagram" class="estudante-icone"> </a>
+            <a href="https://wa.me/5541999589774?text=Sou+o+Prof.+Gerson.+Como+posso+ajudar%3F"> <img src="img/whatsapp.svg" alt="icone do whatsapp" class="estudante-icone"> </a>      
         </div>
     </section>
 
@@ -133,15 +284,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper (".swiper",{ 
-              spaceBetween: 10,
-              slidesPerView: 1,
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
 
-              paginaton: {
-                el: ".swiper-pagination",
-                type: "bullets",
-              },
-            });    
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
     </script>
 
 </body>
