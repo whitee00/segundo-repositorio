@@ -4,13 +4,13 @@
 @import url(/styles/flashcard.css);
 
 :root {
-    --cor-principal: #845EC2;
-    --cor-secundaria: #D65DB1;
-    --cor-rosa: #FF6F91;
-    --cor-laranja: #FF9671;
-    --cor-fundo: #FFC75F;
+    --cor-principal: #0c4201e7;
+    --cor-secundaria: #00AAA9;
+    --cor-rosa: #28161C;
+    --cor-laranja: #9296F0;
+    --cor-fundo: #5B63B7;
     --cor-escrita: #F9F871;
-    --cor-botao: #00C9A7;
+    --cor-botao: #FFF5F9;
     --cor-preto: #000000;
     --cor-branco: #ffffff;
 }
